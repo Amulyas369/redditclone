@@ -1,0 +1,10 @@
+.main{
+  display: flex;
+
+}
+.mainLeftSection{
+  display: flex;
+  width: calc(100% - 250px);
+  background-color: rgb(233, 238, 238);
+  border-left: .5px solid rgba(63, 62, 62, 0.8);
+}
