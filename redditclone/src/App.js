@@ -9,6 +9,7 @@ import Signup from "./Signup"
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import PostFeed from './PostFeed';
 import RightSide from './RightSide';
+import Signout from './Signout';
 function App() {
   return (
     <div className="App">
@@ -28,7 +29,7 @@ function App() {
           <Route path='/postfeed' element={<PostFeed/>}/>
         </Routes>
        </BrowserRouter>
-       
+       <Signout/>
     </div>
   );
 }
